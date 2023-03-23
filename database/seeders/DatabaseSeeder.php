@@ -15,6 +15,10 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RolSeeder::class,
             DocumentTypeSedeer::class,
+            ContrySeeder::class,
+            StatesSeeder::class,
+            StatesSeeder::class,
+            CitySeeder::class,
         ]);
     }
 }
